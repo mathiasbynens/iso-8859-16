@@ -2,7 +2,7 @@
 
 _iso-8859-16_ is a robust JavaScript implementation of [the iso-8859-16 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-16).
 
-This encoding is known under the following names: iso-8859-16, and iso-8859-16.
+This encoding is known under the following names: , and iso-8859-16.
 
 ## Installation
 
