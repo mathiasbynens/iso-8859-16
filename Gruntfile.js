@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 					}
 				},
 				'files': {
-					'iso885916.js': ['src/iso885916.js']
+					'iso-8859-16.js': ['src/iso-8859-16.js']
 				}
 			},
 			'build-tests': {
