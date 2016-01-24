@@ -1,6 +1,6 @@
 # iso-8859-16 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-16.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-16) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/iso-8859-16/badge.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-16) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-16.svg)](https://gemnasium.com/mathiasbynens/iso-8859-16)
 
-_iso-8859-16_ is a robust JavaScript implementation of [the iso-8859-16 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-16).
+_iso-8859-16_ is a robust JavaScript implementation of [the iso-8859-16 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#iso-8859-16).
 
 This encoding is known under the following names: , and iso-8859-16.
 
@@ -36,7 +36,7 @@ In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://
 var iso885916 = require('iso-8859-16');
 ```
 
-In [Rhino](http://www.mozilla.org/rhino/):
+In [Rhino](https://www.mozilla.org/rhino/):
 
 ```js
 load('iso885916.js');
@@ -66,7 +66,7 @@ A string representing the semantic version number.
 
 ### `iso885916.labels`
 
-An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+An array of strings, each representing a [label](https://encoding.spec.whatwg.org/#label) for this encoding.
 
 ### `iso885916.encode(input, options)`
 
@@ -76,7 +76,7 @@ This function takes a plain text string (the `input` parameter) and encodes it a
 var encodedData = iso885916.encode(text);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
 
 ```js
 var encodedData = iso885916.encode(text, {
@@ -94,7 +94,7 @@ This function takes a byte string (the `input` parameter) and decodes it accordi
 var text = iso885916.decode(encodedData);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
 
 ```js
 var text = iso885916.decode(encodedData, {
@@ -106,7 +106,7 @@ var text = iso885916.decode(encodedData, {
 
 ## Support
 
-_iso-8859-16_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_iso-8859-16_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
 
 ## Unit tests & code coverage
 
